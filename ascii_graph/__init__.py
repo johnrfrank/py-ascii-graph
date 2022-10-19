@@ -143,7 +143,7 @@ class Pyasciigraph:
             totalvalue_len = 0
 
             # If we have a list of values for the item
-            if isinstance(value, collections.Iterable):
+            if isinstance(value, collections.abc.Iterable):
                 icount = 0
                 maxvalue = 0
                 minvalue = 0
